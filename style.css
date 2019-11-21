@@ -60,28 +60,28 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+    background-color: #45296b;
+    overflow: show;
 }
 
 nav ul li {
-    float: left;
+    float: ;
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #000047;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: black;
 }
 
 
