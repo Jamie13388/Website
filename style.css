@@ -9,6 +9,10 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
+body {
+    background-image: url("afbeeldingen/space.jpg");
+    background-color: #cccccc;
+}
 
 main {
     margin: 0 auto;
@@ -59,8 +63,9 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
+    padding-bottom: 3px;
     padding: 0;
-    background-color: #45296b;
+    background-color: #404040;
     overflow: show;
 }
 
@@ -72,7 +77,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 8px 10px;
     text-decoration: none;
 }
 
@@ -84,6 +89,7 @@ nav li a.active {
     background-color: black;
 }
 
-
-
-
+.title {
+    margin-bottom: 3px;
+    color: black;
+}
