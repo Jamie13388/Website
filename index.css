@@ -1,0 +1,7 @@
+/* Achtergrond */
+html {
+    background-image: url("afbeeldingen/space.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;

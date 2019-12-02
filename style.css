@@ -1,21 +1,15 @@
 /* Basislayout */
 
 * {
-    color: white
+    color: white;
 }
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: transparent;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
-}
-/* Achtergrond */
-body {
-    background-image: url("afbeeldingen/space.jpg");
-    background-color: #cccccc;
-    background-size: cover;
 }
 
 main {
@@ -73,9 +67,9 @@ nav ul {
     overflow: show;
 }
 
-nav ul li {
+/* nav ul li {
     float: ;
-}
+} */
 
 nav li a {
     display: block;
