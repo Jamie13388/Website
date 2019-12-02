@@ -11,10 +11,11 @@ html, body {
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
-
+/* Achtergrond */
 body {
     background-image: url("afbeeldingen/space.jpg");
     background-color: #cccccc;
+    background-size: cover;
 }
 
 main {
