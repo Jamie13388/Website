@@ -14,7 +14,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -56,11 +56,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.inleiding {
+    font-size: 125%;
+}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: auto ;
     padding-bottom: 3px;
     padding: 0;
     background-color: black;
@@ -77,6 +80,7 @@ nav li a {
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
+    opacity: 0,5;
 }
 
 nav li a:hover {
