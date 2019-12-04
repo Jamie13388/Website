@@ -60,6 +60,10 @@ a:hover {
     font-size: 125%;
 }
 
+#hoofdtitel {
+    font-size: 200%;
+}
+
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
