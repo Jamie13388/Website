@@ -66,12 +66,17 @@ a:hover {
 
 /* navigatiebalk */
 nav ul {
-    list-style-type: none;
-    margin: auto ;
-    padding-bottom: 3px;
+    height: 100%;
+    width: 160px;
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
     padding: 0;
-    background-color: black;
-    overflow: show;
+    margin: auto;
+    list-style-type: none;
     opacity: 0.8; 
     filter: alpha(opacity=20);
 
@@ -86,6 +91,7 @@ nav li a {
     color: white;
     text-align: center;
     padding: 6px 10px;
+    font-size: 20px;
     text-decoration: none;
     opacity: 0,5;
 }
