@@ -18,6 +18,11 @@ main {
     position: relative;
 }
 
+h1{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
 
 article {
     text-align: justify;
@@ -42,6 +47,7 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
 }
+
 
 .smalltext {
     font-size: 0.7em;
@@ -74,7 +80,7 @@ nav ul {
     left: 0;
     background-color: #000000;
     overflow-x: hidden;
-    padding: 0;
+    padding: 10px;
     margin: auto;
     list-style-type: none;
     opacity: 0.8; 
