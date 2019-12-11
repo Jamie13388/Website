@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: transparent;  
-    
+    font-family: 'Gelasio', serif;
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -43,9 +43,14 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+#astronaut {
     float: left;
     margin-right: 15px;
+}
+
+#planeet_1 {
+    float: right;
+    margin-left: 15px;
 }
 
 
@@ -63,7 +68,7 @@ a:hover {
 }
 
 .inleiding {
-    font-size: 125%;
+    font-size: 150%;
 }
 
 #hoofdtitel {

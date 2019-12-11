@@ -1,0 +1,25 @@
+h1, p { margin: 0; }
+
+#container {
+    padding: 20px 20px 100px;
+    margin: 50px;
+    position: relative;
+}
+#container h1 {
+    background-image: url("afbeeldingen/sterren.jpg");
+    font-size: 12em;
+    font-family: impact;
+    left: 0;
+    line-height: 100%;
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+
