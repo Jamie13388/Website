@@ -19,7 +19,7 @@ main {
 }
 
 h1{
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -72,7 +72,7 @@ a:hover {
 }
 
 #hoofdtitel {
-    font-size: 200%;
+    font-size: 400%;
 }
 
 /* navigatiebalk */
@@ -115,7 +115,7 @@ nav li a.active {
     background-color: #404040;
 }
 
-.title {
+.titel {
     margin-bottom: 3px;
     color: black;
 }
