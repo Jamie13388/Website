@@ -14,7 +14,7 @@ html, body {
 main {
     margin: 0 auto;
     width: 1000px;
-    position: relative;
+    text-align: auto;
 }
 
 h1{
@@ -114,7 +114,52 @@ nav li a.active {
     background-color: #404040;
 }
 
+@media screen and (max-width: 1400px) {
+    main {margin-left: 180px;}
+}
+
 .titel {
     margin-bottom: 3px;
     color: black;
+}
+
+/* Titels */
+
+h1, p { margin: 0; }
+
+.container {
+    font-size: 11em;
+    font-family: impact;
+    left: 0;
+    line-height: 100%;
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+#container1 {
+    background-image: url("afbeeldingen/aarde2.jpg");
+}
+
+#container2 {
+    background-image: url("afbeeldingen/solasystem.png");
+}
+
+#container3 {
+    background-image: url("afbeeldingen/MilkyWayGalaxy.jpg");
+}
+
+#container4 {
+    background-image: url("afbeeldingen/sterren.jpg");
+}
+
+#container5 {
+    background-image: url("afbeeldingen/supernova.jpg");
+    font-size: 9em;
 }
