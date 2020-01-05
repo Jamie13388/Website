@@ -1,6 +1,6 @@
 /* Basislayout */
 
-* {
+#index {
     color: white;
 }
 html, body {
@@ -15,6 +15,10 @@ main {
     margin: 0 auto;
     width: 1000px;
     text-align: auto;
+}
+
+.titelpadding {
+    padding: 10px;
 }
 
 h1{
