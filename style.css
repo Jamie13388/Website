@@ -13,7 +13,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
     text-align: auto;
 }
 
@@ -51,7 +51,7 @@ footer {
 
 
 .smalltext {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 a {
