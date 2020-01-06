@@ -21,12 +21,6 @@ main {
     padding: 10px;
 }
 
-h1{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
 article {
     text-align: justify;
 }
@@ -52,6 +46,7 @@ footer {
 
 .smalltext {
     font-size: 0.8em;
+    text-align: center;
 }
 
 a {
@@ -112,7 +107,7 @@ nav li a.active {
     background-color: #404040;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
     main {margin-left: 180px;}
     .container {margin-left: 180px;}
 }
@@ -127,12 +122,11 @@ nav li a.active {
 h1, p { margin: 0; }
 
 .container {
-    font-size: 11em;
+    font-size: 10em;
     font-family: impact;
     left: 0;
     line-height: 100%;
-    padding-top: 25px;
-    position: fixed;
+    padding-top: 15px;
     text-align: center;
     top: 0;
     width: 100%;
@@ -165,3 +159,4 @@ h1, p { margin: 0; }
     background-image: url("afbeeldingen/supernova.jpg");
     font-size: 7em;
 }
+
