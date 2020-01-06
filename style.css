@@ -68,7 +68,7 @@ a:hover {
 }
 
 #hoofdtitel {
-    font-size: 500%;
+    font-size: 600%;
 }
 
 /* navigatiebalk */
@@ -91,7 +91,7 @@ nav ul {
 
  
 .cursor {
-  cursor: url(afbeeldingen/spaceship.png) 50 50, pointer;
+  cursor: url(afbeeldingen/spaceship1.png) 25 25, pointer;
 
 }
 nav li a {
