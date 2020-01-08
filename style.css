@@ -20,8 +20,24 @@
     margin: 0px;
 }
 
+#melkweg-html{
+    background-image: url("afbeeldingen/melkweg-achtergrond.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
 #sterren-html {
     background-image: url("afbeeldingen/sterren-achtergrond.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+#verschijnselen-html {
+    background-image: url("afbeeldingen/verschijnselen-achtergrond.jpg");
     background-color: #cccccc;
     background-size: cover;
     padding: 0px;
@@ -111,7 +127,6 @@ nav ul {
 
 }
 
- 
 .cursor {
   cursor: url(afbeeldingen/spaceship1.png) 25 25, pointer;
 
@@ -166,16 +181,30 @@ h1, p { margin: 0; }
     -moz-text-fill-color: transparent;
     -moz-background-clip: text;
 }
+/* Hover over de titel heen! */
+.container:hover {
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(57, 45, 228),
+    0 0 80px rgb(57, 45, 228),
+    0 0 90px rgb(57, 45, 228),
+    0 0 100px rgb(57, 45, 228),
+    0 0 150px rgb(57, 45, 228);
+}
+
 #container1 {
     background-image: url("afbeeldingen/aarde2.jpg");
 }
 
 #container2 {
     background-image: url("afbeeldingen/solasystem.png");
+    font-size: 9em;
 }
 
 #container3 {
-    background-image: url("afbeeldingen/milkyway.jpg");
+    background-image: url("afbeeldingen/melkweg.jpg");
 }
 
 #container4 {
