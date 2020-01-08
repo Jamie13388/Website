@@ -1,8 +1,34 @@
 /* Basislayout */
 
-#index {
+* {
     color: white;
 }
+
+#aarde-html {
+    background-image: url("afbeeldingen/aarde-achtergrond.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+#zonnestelsel-html {
+    background-image: url("afbeeldingen/zonnestelsel-achtergrond.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+#sterren-html {
+    background-image: url("afbeeldingen/sterren-achtergrond.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 html, body {
     height: 100%;
     padding: 0;
