@@ -20,16 +20,8 @@
     margin: 0px;
 }
 
-#melkweg-html{
-    background-image: url("afbeeldingen/melkweg-achtergrond.jpg");
-    background-color: #cccccc;
-    background-size: cover;
-    padding: 0px;
-    margin: 0px;
-}
-
 #sterren-html {
-    background-image: url("afbeeldingen/sterren-achtergrond.jpg");
+    background-image: url("afbeeldingen/melkweg-achtergrond.jpg");
     background-color: #cccccc;
     background-size: cover;
     padding: 0px;
@@ -64,11 +56,11 @@ main {
     padding: 10px;
 }
 
-article {
+p {
     text-align: justify;
 }
 
-footer {
+.footer {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -86,10 +78,22 @@ footer {
     margin-left: 15px;
 }
 
+#ruimte-wolken{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+#bigbang {
+    border-radius: 25%;
+}
 
 .smalltext {
     font-size: 0.8em;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 a {
@@ -120,6 +124,7 @@ nav ul {
     background-color: #000000;
     overflow-x: hidden;
     padding: 10px;
+    vertical-align: middle;
     margin: auto;
     list-style-type: none;
     opacity: 0.8; 
@@ -185,9 +190,9 @@ h1, p { margin: 0; }
 /* Hover over de titel heen! */
 .container:hover {
     text-shadow:
-    0 0 5px #fff,
-    0 0 10px rgb(0, 0, 0),
-    0 0 20px #fff,
+    0 0 5px #ffffff,
+    0 0 10px #000000,
+    0 0 20px #000000,
     0 0 40px rgb(57, 45, 228),
     0 0 80px rgb(57, 45, 228),
     0 0 90px rgb(57, 45, 228),
@@ -202,10 +207,6 @@ h1, p { margin: 0; }
 #container2 {
     background-image: url("afbeeldingen/solasystem.png");
     font-size: 9em;
-}
-
-#container3 {
-    background-image: url("afbeeldingen/melkweg.jpg");
 }
 
 #container4 {
